@@ -1,0 +1,37 @@
+<svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="600" fill="#0b0f14"/>
+
+  <!-- Gradient overlay -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:rgba(62,169,155,0.15);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgba(62,169,155,0);stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  <circle cx="600" cy="300" r="380" fill="url(#glow)"/>
+
+  <!-- Logo/Brand -->
+  <text x="100" y="170" font-family="'Sora', sans-serif" font-size="70" font-weight="800" fill="#e2e2e2">
+    FENIX <tspan fill="#3ea99b">IA</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text x="100" y="250" font-family="'Sora', sans-serif" font-size="30" font-weight="600" fill="#7a8494">
+    Analytics de Comunicaciones con IA
+  </text>
+
+  <!-- Key features -->
+  <text x="100" y="325" font-family="'Sora', sans-serif" font-size="22" font-weight="500" fill="#c4c8c4">
+    ✓ 5 canales unificados • IA avanzada • Comunicaciones ilimitadas
+  </text>
+
+  <!-- Price -->
+  <rect x="100" y="380" width="260" height="75" rx="12" fill="rgba(62,169,155,0.12)" stroke="#3ea99b" stroke-width="2"/>
+  <text x="230" y="428" font-family="'IBM Plex Mono', monospace" font-size="34" font-weight="700" fill="#3ea99b" text-anchor="middle">
+    Desde 99€/mes
+  </text>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="595" width="1200" height="5" fill="#3ea99b"/>
+</svg>

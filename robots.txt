@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pedrosgfenix.github.io/FENIXIA360LANDING/sitemap.xml
+Sitemap: https://www.fenixia360.com/sitemap.xml
